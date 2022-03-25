@@ -5,4 +5,5 @@ button{
     background-color: rgb(64, 74, 165);
     color: white;
     border-radius: 5px;
+    margin-top: 5px;
 }
