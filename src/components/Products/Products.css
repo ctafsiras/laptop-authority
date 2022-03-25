@@ -1,0 +1,20 @@
+.laptop-sidebar-container {
+    display: flex;
+}
+
+.laptops {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.sidebar {
+    width: 20%;
+    background-color: antiquewhite;
+}
+
+@media (max-width:600px) {
+    .laptops {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
