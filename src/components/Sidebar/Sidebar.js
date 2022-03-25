@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sidebar.css'
 
-const Sidebar = ({cart}) => {
+const Sidebar = ({cart, chooseAgain, randomChoice}) => {
     return (
         <div>
             <h2>Selected Laptops</h2>
@@ -9,8 +9,8 @@ const Sidebar = ({cart}) => {
             
             cart.map(laptop=> <h3>{laptop}</h3>)
         }
-            <button>Choose 1 For Me</button><br />
-            <button>Choose Again</button>
+            <button onClick={randomChoice}>Choose 1 For Me</button><br />
+            <button onClick={chooseAgain}>Choose Again</button>
         </div>
     );
 };

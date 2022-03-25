@@ -20,6 +20,13 @@ const Products = () => {
         }
 
     }
+    const chooseAgain=()=>{
+        setCart([])
+    }
+    const randomChoice=()=>{
+        const rnd=Math.floor(Math.random()*cart.length)
+        console.log(cart[rnd]);
+    }
     return (
         <div className='laptop-sidebar-container'>
             <div className='laptops'>
@@ -28,7 +35,7 @@ const Products = () => {
                 }
             </div>
             <div className='sidebar'>
-                <Sidebar cart={cart} key={cart.indexOf}></Sidebar>
+                <Sidebar cart={cart} key={cart.indexOf} chooseAgain={chooseAgain} randomChoice={randomChoice}></Sidebar>
             </div>
 
         </div>
