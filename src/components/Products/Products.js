@@ -34,7 +34,7 @@ const Products = () => {
             </div>
             <div className='sidebar'>
 
-                <Sidebar cart={cart} chooseAgain={chooseAgain} key={cart[0]} randomChoice={randomChoice} rndmModel={rndmModel}></Sidebar>
+                <Sidebar cart={cart} chooseAgain={chooseAgain} randomChoice={randomChoice} rndmModel={rndmModel}></Sidebar>
 
             </div>
 

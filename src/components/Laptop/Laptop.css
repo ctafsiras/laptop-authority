@@ -1,8 +1,9 @@
-img{
+img {
     height: 200px;
     width: 250px;
 }
-.laptop-container button{
+
+.laptop-container button {
     font-size: 16px;
     padding: 6px 10px;
     cursor: pointer;
@@ -10,8 +11,9 @@ img{
     color: white;
     border-radius: 5px;
 }
-.laptop-container{
+
+.laptop-container {
     padding: 10px;
     margin: 5px;
-    background-color: rgb(235, 224, 224);
+    background-color: rgba(182, 182, 182, 0.157);
 }
