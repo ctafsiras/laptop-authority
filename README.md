@@ -1,3 +1,3 @@
 # Laptop Authority
 
-## [Live Website Link](https://classroom.github.com/a/AD3X5Pv-)
+## [Live Website Link](https://laptop-authority.netlify.app/)
