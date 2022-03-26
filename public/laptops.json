@@ -3,72 +3,72 @@
         "id": 1,
         "model": "DELL ASPIRE 343",
         "img": "/img/laptop-1.jpg",
-        "price": 30000
+        "price": 56000
     },
     {
         "id": 2,
         "model": "HP ASPIRE 443",
         "img": "/img/laptop-2.jpg",
-        "price": 30000
+        "price": 35000
     },
     {
         "id": 3,
         "model": "DELL NEWTON 66",
         "img": "/img/laptop-3.jpg",
-        "price": 30000
+        "price": 70000
     },
     {
         "id": 4,
         "model": "HP BLINDER 33",
         "img": "/img/laptop-4.jpg",
-        "price": 30000
+        "price": 34000
     },
     {
         "id": 5,
         "model": "LENEVO ASPIRE 3",
         "img": "/img/laptop-5.jpg",
-        "price": 30000
+        "price": 47000
     },
     {
         "id": 6,
         "model": "MSI HELLO 343",
         "img": "/img/laptop-6.jpg",
-        "price": 30000
+        "price": 50000
     },
     {
         "id": 7,
         "model": "MSI ASPIRE 34",
         "img": "/img/laptop-7.jpg",
-        "price": 30000
+        "price": 90000
     },
     {
         "id": 8,
         "model": "ACER ASPIRE 5764",
         "img": "/img/laptop-8.jpg",
-        "price": 30000
+        "price": 60000
     },
     {
         "id": 9,
         "model": "LENEVO MULTI 3",
         "img": "/img/laptop-9.jpg",
-        "price": 30000
+        "price": 37000
     },
     {
         "id": 10,
         "model": "HP FIRE 322",
         "img": "/img/laptop-10.jpg",
-        "price": 30000
+        "price": 80000
     },
     {
         "id": 11,
         "model": "MSI JRE 223",
         "img": "/img/laptop-11.jpg",
-        "price": 30000
+        "price": 45000
     },
     {
         "id": 12,
         "model": "MSI TORNEDO 843",
         "img": "/img/laptop-12.jpg",
-        "price": 30000
+        "price": 39000
     }
 ]
