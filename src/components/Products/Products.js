@@ -15,17 +15,15 @@ const Products = () => {
         if (cart.indexOf(model) == -1) {
             setCart([...cart, model])
         }
-        else{
-
-        }
-
     }
-    const chooseAgain=()=>{
+    const chooseAgain = () => {
         setCart([])
+        setRndmModel('')
     }
-    const randomChoice=()=>{
-        const rnd=Math.floor(Math.random()*cart.length)
-        console.log(cart[rnd]);
+    const [rndmModel, setRndmModel] = useState('')
+    const randomChoice = () => {
+        const rnd = Math.floor(Math.random() * cart.length)
+        setRndmModel(cart[rnd]);
     }
     return (
         <div className='laptop-sidebar-container'>
@@ -35,7 +33,9 @@ const Products = () => {
                 }
             </div>
             <div className='sidebar'>
-                <Sidebar cart={cart} key={cart.indexOf} chooseAgain={chooseAgain} randomChoice={randomChoice}></Sidebar>
+
+                <Sidebar cart={cart} chooseAgain={chooseAgain} key={cart[0]} randomChoice={randomChoice} rndmModel={rndmModel}></Sidebar>
+
             </div>
 
         </div>
