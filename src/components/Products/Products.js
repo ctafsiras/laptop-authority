@@ -12,7 +12,7 @@ const Products = () => {
     }, [])
     const [cart, setCart] = useState([])
     const handleAdd = model => {
-        if (cart.indexOf(model) == -1) {
+        if (cart.indexOf(model) === -1) {
             setCart([...cart, model])
         }
     }
